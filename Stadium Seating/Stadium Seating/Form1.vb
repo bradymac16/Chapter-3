@@ -15,7 +15,7 @@
         dblClassC = CDbl(txtClassC.Text) * 9
         lblResultClassC.Text = dblClassC.ToString("c")
 
-
+        lblTotalRevenue.Text = dblClassA + dblClassB + dblClassC
 
     End Sub
 
